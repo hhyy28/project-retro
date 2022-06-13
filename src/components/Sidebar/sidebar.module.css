@@ -1,0 +1,17 @@
+.nav {
+    /* grid-area: "n"; */
+    background-color: blueviolet;
+}
+.link a {
+    margin: auto ;
+    font-family: 'Monoton', cursive;
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+    
+    
+}
+.link a.activeLink {
+    color: red;
+}
