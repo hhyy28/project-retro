@@ -1,0 +1,24 @@
+.content{
+    grid-area: c;
+    background-color:darkblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.block{
+    width: 500px; /* Ширина слоя */
+    margin: 0px; /* Значение отступов */
+    border: 4px solid rgb(0, 0, 0); /* Параметры границы */
+    background: rgb(185, 183, 174); /* Цвет фона */
+    margin: auto;
+    height: 650px;
+    margin-right: 20px;
+}
+.img{
+    width: 450px;
+    margin-left: 25px;
+    height: 400px;
+}
+p{
+    text-align: center;
+}

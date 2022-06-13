@@ -1,0 +1,19 @@
+.wrapper{
+    grid-area: h; 
+    background-color: indigo;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.flex_container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.name{
+    margin: auto ;
+    font-family: 'Monoton', cursive;
+    color:white
+}
