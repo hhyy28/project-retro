@@ -9,6 +9,7 @@ import Users from './components/users/Users';
 import Bibr from './components/posts/Posts';
 import Shop from './components/shop/Shop';
 import BeerInfo from './components/shop/beerInfo/BeerInfo';
+import Camera from './components/camera/Camera';
 
 const App =()=>{
   return(
@@ -24,6 +25,7 @@ const App =()=>{
             <Route path='/posts' element={<Bibr />}   />
             <Route exact path='/shop' element={<Shop/>}   />
             <Route exact path='/beer/:id' element={<BeerInfo />}   />
+            <Route path='/camera' element={<Camera />}   />
         </Routes>
       </div>
     </BrowserRouter>

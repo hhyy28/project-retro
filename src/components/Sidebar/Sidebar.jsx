@@ -22,7 +22,12 @@ const Sidebar =()=>{
             <div className={`${s.link} ${s.active}`}>
                 <NavLink to='/shop' activeClassName={s.activeLink} >Beer store</NavLink>
             </div>
-            
+            <div className={`${s.link} ${s.active}`}>
+                <NavLink to='/maps' activeClassName={s.activeLink} >Maps</NavLink>
+            </div>
+            <div className={`${s.link} ${s.active}`}>
+                <NavLink to='/camera' activeClassName={s.activeLink} >Camera</NavLink>
+            </div>
         </nav>
     )
 }
